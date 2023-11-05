@@ -52,7 +52,9 @@
 .address {
     font-style: normal;
 }
-.content { 
+.content {
+
+
 }
 .cover {
     background-image: url(../images/cover.jpg);
@@ -129,4 +131,83 @@
     padding: 0px 32px 0px 32px;
     height: 52px;
     margin: 128px 44px 62px 0px;
+}
+.lots {
+    width: 1340px;
+    height: 579px;
+    margin: auto;
+}
+.lots__heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 180px 0px 27px 40px;
+}
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.lots__card-list-item {
+    display: flex;
+    flex-grow: 1;
+}
+.card-link {
+
+}
+.card {
+    width: 430px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.card__title {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 50px 40px 0px 40px;
+    text-underline-offset: 4px;
+}
+.card__text {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card__text_padding-top_film {
+    padding-top: 202px;
+}
+.card__text_padding-top_book {
+    padding-top: 30px;
+}
+.card__text_padding-top_picture {
+    padding-top: 84px;
+}
+.lots__look-more-link {
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: normal;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    padding-left: 40px;
 }
