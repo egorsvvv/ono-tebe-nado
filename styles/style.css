@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 1340px;
-  padding-top: 92px;
+  padding-top: 82px;
   padding-bottom: 92px;
   align-items: center;
 }
@@ -37,7 +37,7 @@
 }
 
 .header__logo {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   margin-left: 209px;
