@@ -2,10 +2,11 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   width: 1340px;
   padding-top: 92px;
   padding-bottom: 92px;
+  align-items: center;
 }
 
 .header__menu {
@@ -69,7 +70,7 @@
   background-size: 100% auto;
   width: 1440px;
   height: 757px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -91,7 +92,7 @@
   line-height: 115%;
   text-transform: uppercase;
   width: 1340px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .aligned-text {
@@ -152,7 +153,7 @@
 .lots {
   width: 1340px;
   height: 579px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .lots__heading {
@@ -242,7 +243,7 @@
 .about {
   width: 1340px;
   height: 487px;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 181px;
 }
 
@@ -289,12 +290,12 @@
 
 .footer {
   width: 1340px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  height: 97px;
   gap: 356px;
   margin-top: 428px;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
   font-size: 18px;
   font-weight: 400;
   text-underline-offset: 5px;
@@ -314,6 +315,7 @@
 
 .footer__menu-list {
   list-style: none;
+  line-height: normal;
 }
 
 .footer__menu-list-item {
